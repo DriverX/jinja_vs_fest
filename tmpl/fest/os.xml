@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="json">
+    <fest:text><![CDATA[<?xml version="1.0" encoding="utf-8" ?>]]></fest:text>
+    <SearchSuggestion version="2.0" xmlns="http://opensearch.org/searchsuggest2">
+        <Query>
+            <fest:value>json.q</fest:value>
+        </Query>
+        <Section>
+            <fest:if test="json.serp && json.serp.items.length">
+                <fest:for iterate="json.serp.items" value="result" index="i">
+                    <Item>
+                        <Text>
+                            <fest:value>result.text</fest:value>
+                        </Text>
+                    </Item>
+                </fest:for>
+            </fest:if>
+        </Section>
+    </SearchSuggestion>
+</fest:template>
+

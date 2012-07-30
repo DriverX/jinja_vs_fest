@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchSuggestion version="2.0" xmlns="http://opensearch.org/searchsuggest2">
+	<Query>{{ q|e }}</Query>
+	<Section>
+        {% if serp %}
+            {% for result in serp["items"] %}
+                <Item>
+                    <Text>{{ result.text|e }}</Text>
+                </Item>
+            {% endfor %}
+        {% endif %}
+	</Section>
+</SearchSuggestion>
+

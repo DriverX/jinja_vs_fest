@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<fest:template xmlns:fest="http://fest.mail.ru" context_name="data">
+    <fest:doctype>html</fest:doctype>
+    <html>
+        <head>
+            <meta>
+                <fest:attributes>
+                    <fest:attribute name="charset">utf-8</fest:attribute>
+                </fest:attributes>
+            </meta>
+            <title>
+                <fest:value output="text">data.page_name</fest:value>
+            </title>
+        </head>
+        <body>
+            <fest:if test="data.serp && data.serp.results && data.serp.results.length">
+                <ol>
+                    <fest:for iterate="data.serp.results" index="counter" value="result">
+                        <li class="res">
+                            <div class="res-wrap">
+                                <h3 class="res-head">
+                                    <a
+                                        target="_blank"
+                                        href="{ result.url }"
+                                        onmousedown="pxt('o', this.href, '{ counter }')"
+                                    >
+                                        <fest:value output="text">result.question</fest:value>
+                                    </a>
+                                </h3>
+
+                                <div class="snip">
+                                    <fest:choose>
+                                        <fest:when test="result.passages">
+                                            <fest:script>
+                                                var passages_len = result.passages.length;
+                                            </fest:script>
+                                            <fest:for iterate="result.passages" value="passage" index="pi">
+                                                <fest:value output="text">passage</fest:value>
+                                                <fest:if test="pi != passages_len - 1">...</fest:if>
+                                            </fest:for>
+                                        </fest:when>
+                                        <fest:otherwise>
+                                            <fest:choose>
+                                                <fest:when test="result.banswer">
+                                                    <fest:value output="text">result.banswer</fest:value>
+                                                </fest:when>
+                                                <fest:when test="result.qstcomment">
+                                                    <fest:value output="text">result.qstcomment</fest:value>
+                                                </fest:when>
+                                                <fest:when test="result.answer">
+                                                    <fest:value output="text">result.answer</fest:value>
+                                                </fest:when>
+                                                <fest:otherwise>
+                                                    <fest:value output="text">result.title</fest:value>
+                                                </fest:otherwise>
+                                            </fest:choose>
+                                        </fest:otherwise>
+                                    </fest:choose>
+                                </div>
+                                
+                                <div class="otvet_info">
+                                    <span class="nick_otvet">
+                                        <a target="_blank" href="{ result.author.url }">
+                                            <fest:value>result.author.nick</fest:value>
+                                        </a>
+                                    </span>
+                                    
+                                    <fest:if test="result.count">
+                                        <span class="otvet_counter">нет ответов</span>
+                                    </fest:if>
+                                </div>
+                            </div>
+                        </li>
+                    </fest:for>
+                </ol>
+            </fest:if>
+        </body>
+    </html>
+</fest:template>
+

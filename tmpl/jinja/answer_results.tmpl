@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ page_name }}</title>
+</head>
+<body>
+
+
+{%- if serp and serp.results -%}
+	<ol>
+		{% for result in serp.results -%}
+			<li class="res">
+				<div class="res-wrap">
+					<h3
+						class="res-head"
+						><a
+							target="_blank"
+							href="{{ result.url|e }}"
+							onmousedown="pxt('o', this.href, '{{ result.number }}')"
+							>{{ result.question }}</a
+					></h3>
+
+					<div class="snip">
+						{% for passage in result.passages -%}
+							{{ passage }}
+							{%- if not loop.last %}...{% endif %}
+						{%- else %}
+							{% if result.banswer %}
+								{{ result.banswer }}
+							{% elif result.qstcomment %}
+								{{ result.qstcomment }}
+							{% elif result.answer %}
+								{{ result.answer }}
+							{% else %}
+								{{ result.title }}
+							{% endif %}
+						{% endfor %}
+					</div>
+					
+					<div class="otvet_info">
+						<span class="nick_otvet"><a target="_blank" href="{{ result.author.url|e }}">{{ result.author.nick|e }}</a></span>
+						
+						{% if not result.count %}
+							<span class="otvet_counter">нет ответов</span>
+						{% endif %}
+					</div>
+				</div>
+			</li>
+		{%- endfor %}
+	</ol>
+{%- endif -%}
+
+</body>
+</html>
+

@@ -1,0 +1,128 @@
+{
+    "items": [
+        {
+            "text": "москва фм", 
+            "textMarked": "<b>москва</b> фм", 
+            "type": "lite"
+        }, 
+        {
+            "text": "москва третий рим", 
+            "textMarked": "<b>москва</b> третий рим", 
+            "type": "lite"
+        }, 
+        {
+            "text": "москва слезам не верит", 
+            "textMarked": "<b>москва</b> слезам не верит", 
+            "type": "lite"
+        }, 
+        {
+            "text": "москва 24", 
+            "textMarked": "<b>москва</b> 24", 
+            "type": "lite"
+        }, 
+        {
+            "text": "москва-река", 
+            "textMarked": "<b>москва</b>-река", 
+            "type": "lite"
+        }, 
+        {
+            "text": "москва погода", 
+            "textMarked": "<b>москва</b> погода", 
+            "type": "lite"
+        }, 
+        {
+            "text": "москва сити", 
+            "textMarked": "<b>москва</b> сити", 
+            "type": "lite"
+        }, 
+        {
+            "text": "москва карта", 
+            "textMarked": "<b>москва</b> карта", 
+            "type": "lite"
+        }, 
+        {
+            "text": "москва тур нижний новгород", 
+            "textMarked": "<b>москва</b> тур нижний новгород", 
+            "type": "lite"
+        }
+    ], 
+    "sites": [
+        {
+            "favicon": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAllBMVEW+TVG/UFTGYWXPfH/owsPhs7X////36+zBU1fira/sy8zir7Hfpqjov8H8+fnPj5G5PEGtTVDOnJ7r19epTVC7TVGkAwmqExmvISazLTK2OD2vQUXJiYuiAAbJb3LqzM3DhYf26enZsrSLAAWQAAWrFxyoDROyWFu1NTrbnqCZAAaZKS24Q0ecAAbUkZSmCA7Ha27CXWFoTeSfAAAAAWJLR0QGYWa4fQAAAAlwSFlzAAAASAAAAEgARslrPgAAAI5JREFUGNN1jocOwjAMREOBKw2rQHEHGCiUMsP4/58jbgChSJxk2fd8sqzUH7UCD7Q7HujCA+EP6EW6HwF6MNTvQ8EITmNxsa3JVOwsmYulNMuLhYBlkWcpKRatsN6gbEYHsN1VCfYOEHN9qI6n8+VK34ThG9gYtltFEmEuUTN/ErbfgYcM1Nyw4Gk/ddEXdmoPDKKVshoAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTEtMTAtMjFUMTM6NDQ6MzIrMDQ6MDB9597CAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDExLTEwLTIxVDEzOjQ0OjMyKzA0OjAwDLpmfgAAAABJRU5ErkJggg==", 
+            "link": "http://moskva.fm/", 
+            "sig": "b4ce6c7ae0efbbaae950497fa20d3162", 
+            "site": "moskva.fm", 
+            "text": "http://moskva.fm/", 
+            "type": "site"
+        }
+    ], 
+    "terms": {
+        "query": "москва"
+    }
+}
+/*
+	<pre style="position: relative; background: #fff; z-index: 10001;">{'CONTEXT': {'COOKIE': {},
+             'GET': {'QID': '46748c380d229761',
+                     'current_url': 'http://localhost:15001/sg_u?q=%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0',
+                     'q': u'\u043c\u043e\u0441\u043a\u0432\u0430',
+                     'user_type': '0'},
+             'HEADERS': {'Host': 'localhost:15001',
+                         'User-Agent': 'Wget/1.11.4 Red Hat modified'},
+             'POST': {},
+             'auto_query': u'\u043c\u043e\u0441\u043a\u0432\u0430',
+             'auto_query_cp1251': '\xec\xee\xf1\xea\xe2\xe0',
+             'browser': {'type': None, 'version': None},
+             'current_url': 'http://localhost:15001/sg_u?q=%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0',
+             'detector': {'result': 'PC', 'select': 'PC'},
+             'localtime': 1342714236,
+             'q': u'\u043c\u043e\u0441\u043a\u0432\u0430',
+             'q1251': '\xec\xee\xf1\xea\xe2\xe0',
+             'qid': '46748c380d229761',
+             'query': u'\u043c\u043e\u0441\u043a\u0432\u0430',
+             'query_cp1251': '\xec\xee\xf1\xea\xe2\xe0',
+             'serp': {'items': [{'text': u'\u043c\u043e\u0441\u043a\u0432\u0430 \u0444\u043c',
+                                 'textMarked': u'<b>\u043c\u043e\u0441\u043a\u0432\u0430</b> \u0444\u043c',
+                                 'type': 'lite'},
+                                {'text': u'\u043c\u043e\u0441\u043a\u0432\u0430 \u0442\u0440\u0435\u0442\u0438\u0439 \u0440\u0438\u043c',
+                                 'textMarked': u'<b>\u043c\u043e\u0441\u043a\u0432\u0430</b> \u0442\u0440\u0435\u0442\u0438\u0439 \u0440\u0438\u043c',
+                                 'type': 'lite'},
+                                {'text': u'\u043c\u043e\u0441\u043a\u0432\u0430 \u0441\u043b\u0435\u0437\u0430\u043c \u043d\u0435 \u0432\u0435\u0440\u0438\u0442',
+                                 'textMarked': u'<b>\u043c\u043e\u0441\u043a\u0432\u0430</b> \u0441\u043b\u0435\u0437\u0430\u043c \u043d\u0435 \u0432\u0435\u0440\u0438\u0442',
+                                 'type': 'lite'},
+                                {'text': u'\u043c\u043e\u0441\u043a\u0432\u0430 24',
+                                 'textMarked': u'<b>\u043c\u043e\u0441\u043a\u0432\u0430</b> 24',
+                                 'type': 'lite'},
+                                {'text': u'\u043c\u043e\u0441\u043a\u0432\u0430-\u0440\u0435\u043a\u0430',
+                                 'textMarked': u'<b>\u043c\u043e\u0441\u043a\u0432\u0430</b>-\u0440\u0435\u043a\u0430',
+                                 'type': 'lite'},
+                                {'text': u'\u043c\u043e\u0441\u043a\u0432\u0430 \u043f\u043e\u0433\u043e\u0434\u0430',
+                                 'textMarked': u'<b>\u043c\u043e\u0441\u043a\u0432\u0430</b> \u043f\u043e\u0433\u043e\u0434\u0430',
+                                 'type': 'lite'},
+                                {'text': u'\u043c\u043e\u0441\u043a\u0432\u0430 \u0441\u0438\u0442\u0438',
+                                 'textMarked': u'<b>\u043c\u043e\u0441\u043a\u0432\u0430</b> \u0441\u0438\u0442\u0438',
+                                 'type': 'lite'},
+                                {'text': u'\u043c\u043e\u0441\u043a\u0432\u0430 \u043a\u0430\u0440\u0442\u0430',
+                                 'textMarked': u'<b>\u043c\u043e\u0441\u043a\u0432\u0430</b> \u043a\u0430\u0440\u0442\u0430',
+                                 'type': 'lite'},
+                                {'text': u'\u043c\u043e\u0441\u043a\u0432\u0430 \u0442\u0443\u0440 \u043d\u0438\u0436\u043d\u0438\u0439 \u043d\u043e\u0432\u0433\u043e\u0440\u043e\u0434',
+                                 'textMarked': u'<b>\u043c\u043e\u0441\u043a\u0432\u0430</b> \u0442\u0443\u0440 \u043d\u0438\u0436\u043d\u0438\u0439 \u043d\u043e\u0432\u0433\u043e\u0440\u043e\u0434',
+                                 'type': 'lite'}],
+                      'sites': [{'favicon': 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAllBMVEW+TVG/UFTGYWXPfH/owsPhs7X////36+zBU1fira/sy8zir7Hfpqjov8H8+fnPj5G5PEGtTVDOnJ7r19epTVC7TVGkAwmqExmvISazLTK2OD2vQUXJiYuiAAbJb3LqzM3DhYf26enZsrSLAAWQAAWrFxyoDROyWFu1NTrbnqCZAAaZKS24Q0ecAAbUkZSmCA7Ha27CXWFoTeSfAAAAAWJLR0QGYWa4fQAAAAlwSFlzAAAASAAAAEgARslrPgAAAI5JREFUGNN1jocOwjAMREOBKw2rQHEHGCiUMsP4/58jbgChSJxk2fd8sqzUH7UCD7Q7HujCA+EP6EW6HwF6MNTvQ8EITmNxsa3JVOwsmYulNMuLhYBlkWcpKRatsN6gbEYHsN1VCfYOEHN9qI6n8+VK34ThG9gYtltFEmEuUTN/ErbfgYcM1Nyw4Gk/ddEXdmoPDKKVshoAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTEtMTAtMjFUMTM6NDQ6MzIrMDQ6MDB9597CAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDExLTEwLTIxVDEzOjQ0OjMyKzA0OjAwDLpmfgAAAABJRU5ErkJggg==',
+                                 'link': 'http://moskva.fm/',
+                                 'sig': 'b4ce6c7ae0efbbaae950497fa20d3162',
+                                 'site': u'moskva.fm',
+                                 'text': 'http://moskva.fm/',
+                                 'type': 'site'}],
+                      'terms': {'query': u'\u043c\u043e\u0441\u043a\u0432\u0430'}},
+             'user_type': 0},
+ 'HANDLERS': {'suggest': {'net_client_data': {'Host': '10.103.0.145',
+                                              'Port': 16667,
+                                              'Query': 'utf8=1&user_type=0&q=%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0'},
+                          'out_params': {'cookies': {},
+                                         'headers': {},
+                                         'params': {'q': u'\u043c\u043e\u0441\u043a\u0432\u0430',
+                                                    'user_type': 0,
+                                                    'utf8': 1}},
+                          'prefix': 'suggest',
+                          'response': 'HTTP/1.0 200 OK\r\nContent-Type: text/html; charset=UTF-8\r\n\r\n<?xml version="1.0" encoding="UTF-8"?>\n<GSP>\n<QUERIES>\n<DL tt="loop" ot="QUERY">\n    <QUERY>\n        <TEXT><![CDATA[\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0 \xd1\x84\xd0\xbc]]></TEXT>\n        <SITE>http://moskva.fm/</SITE>\n        <SPC>0</SPC>\n        <MUS>0</MUS>\n        <WEIGHT>86546</WEIGHT>\n        <MARKED><![CDATA[<b>\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0</b> \xd1\x84\xd0\xbc]]></MARKED>\n    </QUERY>\n    <QUERY>\n        <TEXT><![CDATA[\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0 \xd1\x82\xd1\x80\xd0\xb5\xd1\x82\xd0\xb8\xd0\xb9 \xd1\x80\xd0\xb8\xd0\xbc]]></TEXT>\n        <SITE>http://3rm.info/</SITE>\n        <SPC>0</SPC>\n        <MUS>0</MUS>\n        <WEIGHT>19242</WEIGHT>\n        <MARKED><![CDATA[<b>\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0</b> \xd1\x82\xd1\x80\xd0\xb5\xd1\x82\xd0\xb8\xd0\xb9 \xd1\x80\xd0\xb8\xd0\xbc]]></MARKED>\n    </QUERY>\n    <QUERY>\n        <TEXT><![CDATA[\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0 \xd1\x81\xd0\xbb\xd0\xb5\xd0\xb7\xd0\xb0\xd0\xbc \xd0\xbd\xd0\xb5 \xd0\xb2\xd0\xb5\xd1\x80\xd0\xb8\xd1\x82]]></TEXT>\n        <SITE></SITE>\n        <SPC>0</SPC>\n        <MUS>0</MUS>\n        <WEIGHT>4175</WEIGHT>\n        <MARKED><![CDATA[<b>\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0</b> \xd1\x81\xd0\xbb\xd0\xb5\xd0\xb7\xd0\xb0\xd0\xbc \xd0\xbd\xd0\xb5 \xd0\xb2\xd0\xb5\xd1\x80\xd0\xb8\xd1\x82]]></MARKED>\n    </QUERY>\n    <QUERY>\n        <TEXT><![CDATA[\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0 24]]></TEXT>\n        <SITE></SITE>\n        <SPC>0</SPC>\n        <MUS>0</MUS>\n        <WEIGHT>4130</WEIGHT>\n        <MARKED><![CDATA[<b>\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0</b> 24]]></MARKED>\n    </QUERY>\n    <QUERY>\n        <TEXT><![CDATA[\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0-\xd1\x80\xd0\xb5\xd0\xba\xd0\xb0]]></TEXT>\n        <SITE></SITE>\n        <SPC>0</SPC>\n        <MUS>0</MUS>\n        <WEIGHT>4112</WEIGHT>\n        <MARKED><![CDATA[<b>\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0</b>-\xd1\x80\xd0\xb5\xd0\xba\xd0\xb0]]></MARKED>\n    </QUERY>\n    <QUERY>\n        <TEXT><![CDATA[\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0 \xd0\xbf\xd0\xbe\xd0\xb3\xd0\xbe\xd0\xb4\xd0\xb0]]></TEXT>\n        <SITE></SITE>\n        <SPC>0</SPC>\n        <MUS>0</MUS>\n        <WEIGHT>3727</WEIGHT>\n        <MARKED><![CDATA[<b>\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0</b> \xd0\xbf\xd0\xbe\xd0\xb3\xd0\xbe\xd0\xb4\xd0\xb0]]></MARKED>\n    </QUERY>\n    <QUERY>\n        <TEXT><![CDATA[\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0 \xd1\x81\xd0\xb8\xd1\x82\xd0\xb8]]></TEXT>\n        <SITE></SITE>\n        <SPC>0</SPC>\n        <MUS>0</MUS>\n        <WEIGHT>2404</WEIGHT>\n        <MARKED><![CDATA[<b>\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0</b> \xd1\x81\xd0\xb8\xd1\x82\xd0\xb8]]></MARKED>\n    </QUERY>\n    <QUERY>\n        <TEXT><![CDATA[\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0 \xd0\xba\xd0\xb0\xd1\x80\xd1\x82\xd0\xb0]]></TEXT>\n        <SITE></SITE>\n        <SPC>0</SPC>\n        <MUS>0</MUS>\n        <WEIGHT>2275</WEIGHT>\n        <MARKED><![CDATA[<b>\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0</b> \xd0\xba\xd0\xb0\xd1\x80\xd1\x82\xd0\xb0]]></MARKED>\n    </QUERY>\n    <QUERY>\n        <TEXT><![CDATA[\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0 \xd1\x82\xd1\x83\xd1\x80 \xd0\xbd\xd0\xb8\xd0\xb6\xd0\xbd\xd0\xb8\xd0\xb9 \xd0\xbd\xd0\xbe\xd0\xb2\xd0\xb3\xd0\xbe\xd1\x80\xd0\xbe\xd0\xb4]]></TEXT>\n        <SITE>http://mtur.nn.ru/</SITE>\n        <SPC>0</SPC>\n        <MUS>0</MUS>\n        <WEIGHT>1436</WEIGHT>\n        <MARKED><![CDATA[<b>\xd0\xbc\xd0\xbe\xd1\x81\xd0\xba\xd0\xb2\xd0\xb0</b> \xd1\x82\xd1\x83\xd1\x80 \xd0\xbd\xd0\xb8\xd0\xb6\xd0\xbd\xd0\xb8\xd0\xb9 \xd0\xbd\xd0\xbe\xd0\xb2\xd0\xb3\xd0\xbe\xd1\x80\xd0\xbe\xd0\xb4]]></MARKED>\n    </QUERY>\n</DL>\n</QUERIES>\n<SITES tt="loop" ot="SITE">\n    <SITE>\n        <TEXT><![CDATA[http://moskva.fm/]]></TEXT>\n        <SITE>http://moskva.fm/</SITE>\n        <SIG>b4ce6c7ae0efbbaae950497fa20d3162</SIG>\n        <FAVICON>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAllBMVEW+TVG/UFTGYWXPfH/owsPhs7X////36+zBU1fira/sy8zir7Hfpqjov8H8+fnPj5G5PEGtTVDOnJ7r19epTVC7TVGkAwmqExmvISazLTK2OD2vQUXJiYuiAAbJb3LqzM3DhYf26enZsrSLAAWQAAWrFxyoDROyWFu1NTrbnqCZAAaZKS24Q0ecAAbUkZSmCA7Ha27CXWFoTeSfAAAAAWJLR0QGYWa4fQAAAAlwSFlzAAAASAAAAEgARslrPgAAAI5JREFUGNN1jocOwjAMREOBKw2rQHEHGCiUMsP4/58jbgChSJxk2fd8sqzUH7UCD7Q7HujCA+EP6EW6HwF6MNTvQ8EITmNxsa3JVOwsmYulNMuLhYBlkWcpKRatsN6gbEYHsN1VCfYOEHN9qI6n8+VK34ThG9gYtltFEmEuUTN/ErbfgYcM1Nyw4Gk/ddEXdmoPDKKVshoAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTEtMTAtMjFUMTM6NDQ6MzIrMDQ6MDB9597CAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDExLTEwLTIxVDEzOjQ0OjMyKzA0OjAwDLpmfgAAAABJRU5ErkJggg==</FAVICON>\n    </SITE>\n</SITES>\n</GSP>\n'}}}</pre>
+*/
