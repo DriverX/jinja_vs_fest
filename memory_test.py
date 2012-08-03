@@ -68,7 +68,6 @@ def main():
 
     end_mem("jinja")
     """
-
     begin_mem("fest")
     
     begin_mem("engine")
@@ -83,9 +82,12 @@ def main():
     begin_mem("render")
     for i in xrange(render_loops):
         template = template_fest(engine, "answer_results.xml")
-        html = render_fest(template, answer_results[0])
+        for data in answer_results:
+            html = render_fest(template, data)
         template = template_fest(engine, "os.xml")
-        html = render_fest(template, sg_results[0])
+        for data in sg_results:
+            html = render_fest(template, data)
+        # html = render_fest(template, sg_results[0])
         if i % 1000 == 0:
             print get_mem()
     end_mem("render")

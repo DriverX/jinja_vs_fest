@@ -4,7 +4,10 @@ from os import path
 from pprint import pprint
 import PyV8 as pyv8
 import jinja2
-import json
+try:
+    import simplejson as json
+except ImportError:
+    import json
 import hashlib
 
 print pyv8.JSEngine.version
@@ -106,44 +109,33 @@ class TmplFest(BaseTmpl):
     @property
     def context(self):
         if not hasattr(self, "_context"):
-            self._context = pyv8.JSContext(FestHelpers())
+            self._context = pyv8.JSContext()
         return self._context
     
     def gen_template(self):
         ret = None
-        with self._engine._jsctx as ctx:
-            content = ctx.eval("compile('%s')" % path.join(self._engine._searchdir, self._name))
-            content = content.decode("utf-8")
+        with JSLocker():
+            with self._engine._jsctx as ctx:
+                evaljs = "compile('%s')" % path.join(self._engine._searchdir,
+                                                     self._name)
+                content = ctx.eval(evaljs)
+                content = content.decode("utf-8")
 
-            if content:
-                md5 = hashlib.md5()
-                md5.update(self._name)
-                varname = "__tmpl%s" % md5.hexdigest()
-                jscons = """;
-                var %s = function(json, error_log) {
+                if content:
+                    jscons = """(function(json, error_log) {
                         return (%s)(JSON.parse(json));
-                    };
-                """ % (varname, content)
-                with self.context:
-                   self.context.eval(jscons)
-                ret = varname
+                    })""" % (content)
+        with self.context:
+            ret = self.context.eval(jscons)
         return ret
 
     def render(self, **kwargs):
         result = u""
-
-        with self.context as ctx:
-            func = ctx.eval("(%s)" % self._template)
-            result = func(json.dumps(kwargs))
-        return result
-
+        
         with JSLocker():
             with self.context as ctx:
-                #result = ctx.eval(";%s(%s);" % (self._template, json.dumps(kwargs)))
-                func = ctx.eval(self._template)
-                result = func(kwargs)
-                print sorted(dir(ctx.locals))
-                # pyv8.JSEngine.collect()
+                func = self._template
+                result = func(json.dumps(kwargs))
         return result
     
 

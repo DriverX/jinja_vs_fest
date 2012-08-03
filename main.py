@@ -43,8 +43,8 @@ def main():
         sres_build = "tmpl: %s, gen: %.2f usec/pass"
         setup_build = "from __main__ import jinja as engine"
         stmt = s_build % tmplname
-        t = timeit.Timer(stmt, setup_build)
-        print sres_build % (tmplname, 10**6 * t.timeit(number=1))
+        # t = timeit.Timer(stmt, setup_build)
+        # print sres_build % (tmplname, 10**6 * t.timeit(number=1))
 
 
         s = """
@@ -52,10 +52,10 @@ def main():
         tmpl.render(**data)
         """
         sres = "tmpl: %s, cache: %i, %.2f usec/pass"
-
+        
+        from data import answer_results
         stmt = s % tmplname
         setup = "from __main__ import jinja as engine, data"
-        from data import answer_results
         for result in answer_results:
             data = result
             t = timeit.Timer(stmt, setup)

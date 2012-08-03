@@ -9,7 +9,8 @@ def main():
     ctx = PyV8.JSContext()
     for i in xrange(10**6):
         with ctx:
-            res = ctx.eval("%i" % i)
+            res = ctx.eval("(function(a){return a})")
+            res(i)
         if i % 1000 == 0:
             print get_mem()
 
